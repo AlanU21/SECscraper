@@ -13,7 +13,7 @@ headers = {'user-agent': "alanuthuppan@yahoo.com"}
 
 def read_filing_links(excel_path):
     df = pd.read_excel(excel_path, sheet_name='Sheet1')
-    return df['Filings URL'].tolist()
+    return df['html_link'].tolist()
 
 def normalize_date(date_str):
     try:
@@ -24,7 +24,7 @@ def normalize_date(date_str):
 def read_reporting_dates(excel_path):
     dates = []
     df = pd.read_excel(excel_path, sheet_name='Sheet1')
-    initial = df['Reporting date'].tolist()
+    initial = df['date_reported'].tolist()
     for date in initial:
         dates.append(str(date.to_pydatetime().strftime('%B %d, %Y').strip()))
 
@@ -40,7 +40,7 @@ def get_soup_content(url):
 #EXTRACT
 
 def is_header_div(div, phrase):
-    return phrase in div.text.lower() and div.find('table') is not None
+    return phrase in div.text.lower()
 
 def is_data_table_div(div):
     return div.find('table') is not None and len(div.find_all('tr')) > 3
@@ -147,7 +147,9 @@ def extract_tables(soup, company_name, phrase, date):
             print("Header div found, getting table that immediately follows")
             extracted_date = get_date_from_div(div, phrase)
             if extracted_date and normalize_date(extracted_date) == normalize_date(date):
-                next_div = div.parent.find_next_sibling()
+                next_div = div.find_next_sibling()
+                while next_div.find('table') is None:
+                    next_div = next_div.find_next_sibling()
                 if next_div:
                     table = next_div.find('table')
                     if table and "asset" in table.text.lower():
@@ -199,14 +201,11 @@ def find_header_row(table):
 def extract_headers(header_row):
     headers = []
     for header_cell in header_row.find_all('td'):
-        # Extract text from each header cell
         header_text = header_cell.get_text(strip=True)
 
-        # If the header cell is empty, skip it
         if not header_text:
             continue
 
-        # Append the cleaned header text to the headers list
         headers.append(header_text)
 
     return headers
@@ -215,7 +214,6 @@ def extract_row_data(row):
     first_cell_text = row.find('td').get_text(strip=True)
     is_bold = 'font-weight:700' in str(row)
 
-    # Determine row type
     if is_subtotal_row(row):
         return None, 'subtotal'
     elif is_bold and 'total' not in first_cell_text.lower():
@@ -230,12 +228,10 @@ def process_standard_row(row, headers, current_investment_type, current_industry
     td_elements = row.find_all('td')
     columns_filled = [False] * len(headers)
 
-    # Handle the Investment Name (first cell)
     investment_name = td_elements[0].get_text(strip=True)
     row_data[0] = investment_name
     columns_filled[0] = True
 
-    # Iterate from right to left, skipping the first cell
     for i in range(len(td_elements) - 1, 0, -1):
         td = td_elements[i]
         cell_text = td.get_text(strip=True)
@@ -243,17 +239,13 @@ def process_standard_row(row, headers, current_investment_type, current_industry
         if not cell_text or cell_text == '%':
             continue
 
-        # Check for currency/country codes and prepend to the last numeric value
         if re.match(r'^[A-Z]{3}$', cell_text) or cell_text in ['$', '£', 'EUR']:
-            # Find the last filled numeric value
             last_numeric_index = next((j for j, val in enumerate(row_data) if val.replace(',', '').replace('.', '', 1).isdigit() and columns_filled[j]), None)
             if last_numeric_index is not None:
                 row_data[last_numeric_index] = cell_text + ' ' + row_data[last_numeric_index]
             continue
 
-        # Assign cell text to appropriate column based on the pattern
         if cell_text.replace('.', '', 1).replace(',', '').isdigit():
-            # Fill in numeric columns in the order: Percentage of Net Assets, Fair Value, Cost, Par Amount/Units
             for header in reversed(['amount', 'cost', 'fair', 'assets']):
                 index = headers.index(next(filter(lambda h: header in h.lower(), headers), None))
                 if not columns_filled[index]:
@@ -261,33 +253,26 @@ def process_standard_row(row, headers, current_investment_type, current_industry
                     columns_filled[index] = True
                     break
 
-        # Interest Rate and Spread
         elif '%' in cell_text:
             if 'interest' in ''.join(headers).lower() and not columns_filled[headers.index(next(filter(lambda h: 'interest' in h.lower(), headers), None))]:
-                # If Interest Rate not filled, fill it
                 index = headers.index(next(filter(lambda h: 'interest' in h.lower(), headers), None))
                 row_data[index] = cell_text
                 columns_filled[index] = True
             elif 'reference' in ''.join(headers).lower() and not columns_filled[headers.index(next(filter(lambda h: 'reference' in h.lower(), headers), None))]:
-                # Fill Spread
                 index = headers.index(next(filter(lambda h: 'reference' in h.lower(), headers), None))
                 row_data[index] = cell_text
                 columns_filled[index] = True
 
-        # Reference Rate
         elif '+' in cell_text and 'reference' in ''.join(headers).lower():
             index = headers.index(next(filter(lambda h: 'reference' in h.lower(), headers), None))
             if columns_filled[index]:
-                # Prepend Reference Rate to existing Spread value
                 row_data[index] = cell_text + ' ' + row_data[index]
 
-        # Maturity Date
         elif re.match(r'\d{1,2}/\d{1,2}/\d{4}', cell_text):
             index = headers.index(next(filter(lambda h: 'maturity' in h.lower(), headers), None))
             row_data[index] = cell_text
             columns_filled[index] = True
 
-        # Footnotes
         elif '(' in cell_text and 'footnotes' in ''.join(headers).lower():
             index = headers.index(next(filter(lambda h: 'footnote' in h.lower(), headers), None))
             row_data[index] = cell_text
@@ -422,27 +407,35 @@ def main():
     output_excel = 'cleaned_soi_tables.xlsx'
 
     filings = zip(urls, dates)
+    count = 0
 
     for url, date in filings:
-        print(f"Processing URL: {url}")
-        print(f"Date: {date}")
-        try:
-            soup = get_soup_content(url)
-            dataframes = extract_tables(soup, "Blackstone Private Credit Fund", "consolidated schedule of investment", date)
+        if count < len(urls):
+            print(f"Processing URL: {url}")
+            print(f"Date: {date}")
+            try:
+                soup = get_soup_content(url)
+                dataframes = extract_tables(soup, "Blackstone Private Credit Fund", "consolidated schedule of investment", date)
 
-            if dataframes:
-                combined_df = pd.concat(dataframes, ignore_index=True)
-                append_df_to_excel(output_excel, combined_df, sheet_name=date)
-                print(f"Appended all data for {date} to {output_excel}")
+                if dataframes:
+                    combined_df = pd.concat(dataframes, ignore_index=True)
+                    append_df_to_excel(output_excel, combined_df, sheet_name=date)
+                    print(f"Appended all data for {date} to {output_excel}")
 
-            else:
-                print("No data to append for this filing.")
+                else:
+                    print("No data to append for this filing.")
+                
+                count += 1
+            
 
 
-        except Exception as e:
-            error_traceback = traceback.format_exc()  # Get detailed traceback
-            with open('error_log.txt', 'a') as f:
-                f.write(f"Error processing {url}:\n{error_traceback}\n\n")
+            except Exception as e:
+                error_traceback = traceback.format_exc()
+                with open('error_log.txt', 'a') as f:
+                    f.write(f"Error processing {url}:\n{error_traceback}\n\n")
+                count += 1
+        else:
+            break
 
     format_workbook(output_excel)
             
