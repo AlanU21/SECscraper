@@ -77,8 +77,7 @@ def extract_tables(soup, qtr_date):
     flexible_date_pattern = create_flexible_pattern(qtr_date)
     flexible_phrase_pattern = create_flexible_pattern(phrase)
 
-    date_pattern = re.compile(r'\b' + flexible_date_pattern + r'\b', re.IGNORECASE)
-    date_pattern1 = re.compile(r'\b' + re.escape(phrase) + r'\s*[\s\xa0]*' + flexible_date_pattern + r'\b', re.IGNORECASE)
+    date_pattern = re.compile(r'.*\b' + flexible_date_pattern + r'\b.*', re.IGNORECASE)
 
     for tag in soup.find_all(string=re.compile(flexible_phrase_pattern)):
         parent = tag.parent
@@ -89,11 +88,6 @@ def extract_tables(soup, qtr_date):
         if date_pattern.search(combined_text):
             date_found = True
             logging.info(f"Found date matching {qtr_date} near combined text: {combined_text}")
-        
-        if not date_found:
-            if date_pattern1.search(combined_text):
-                date_found = True
-                logging.info(f"Found date matching {qtr_date} near combined text: {combined_text}")
 
         if not date_found:
             sibling = parent.find_next_sibling()
@@ -150,7 +144,7 @@ def extract_tables(soup, qtr_date):
                             table.iloc[i, j + 1:] = table.iloc[i, j + 2:].values.tolist() + [None]
                             row = table.iloc[i]
                     
-                    if percentage_pattern.match(str(cell)) and i != 0:
+                    if percentage_pattern.match(str(cell)) and i not in [0, 1, 2]:
                         if j - 1 >= 0:
                             prev_cell = row.iloc[j - 1]
                             table.iat[i, j - 1] = str(prev_cell) + str(cell)
@@ -160,7 +154,7 @@ def extract_tables(soup, qtr_date):
                     j += 1
                 
             num_columns = table.shape[1]
-            if num_columns == 8 or num_columns == 7:
+            if num_columns == 9 or num_columns == 8 or num_columns == 7:
                 cleaned_tables.append(table)
                 count += 1
             else:
@@ -186,8 +180,7 @@ def remove_nans(row):
 def detect_headers(df):
     header_row = None
     headers = None
-    pattern = re.compile(r"COMPANY\s*/\s*INVESTMENT", re.IGNORECASE)
-
+    pattern = re.compile(r".*\bCOMPANY\b.*", re.IGNORECASE)
 
     for index, row in df.iterrows():
         if any(pattern.search(str(value)) for value in row):
@@ -217,7 +210,7 @@ def consolidate_data(dataframes):
             if headers is None:
                 headers = current_headers
             elif len(headers) != len(current_headers):
-                logging.warning(f"Headers do not match across tables. Skipping inconsistent table.\nCurrent Headers:\n{current_headers}\nHeader Length: {len(current_headers)}\n{df}\n")
+                logging.error(f"Headers do not match across tables. Skipping inconsistent table.\nCurrent Headers:\n{current_headers}\nHeader Length: {len(current_headers)}\n{df}\n")
                 continue
             df = df.reset_index(drop=True)
             master_table = pd.concat([master_table, df], ignore_index=True)
@@ -230,30 +223,49 @@ def consolidate_data(dataframes):
 
     return master_table
 
+def is_date(string):
+    try:
+        datetime.strptime(string, "%B %d, %Y")
+        return True
+    except ValueError:
+        return False
 
+def final_alignment(df, i):
+    if i <= 16:
+        df.columns = ['Company/Investment', 'Acquisition Date', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        for index, row in df.iterrows():
+            if "Total" in str(row.iloc[0]):
+                row.iloc[3:6] = row.iloc[1:4]
+                row.iloc[1:3] = [np.nan, np.nan]
 
-
-
-def total_row_shift(df):
-    if not df.empty:
-        num_columns = df.shape[1]     
-        for i, row in df.iterrows():
-            if isinstance(row.iloc[0], str) and "Total" in row.iloc[0]:
-                try:
-                    if num_columns == 6:
-                        row.iloc[3:6] = row.iloc[1:4]
-                        row.iloc[1:3] = [np.nan, np.nan]
-                    elif num_columns == 5:
-                        row.iloc[2:5] = row.iloc[1:4]
-                        row.iloc[1] = np.nan
-                
-                except Exception as e:
-                    logging.error(f"'Total' row alignment error: {traceback.format_exc()}\n")
-                    logging.error(f"ROW: {row}\n")
-                    logging.error(df)
+            second_cell = row.iloc[1]
+            if not is_date(str(second_cell)) and "Total" not in str(row.iloc[0]):
+                non_empty = row.iloc[1:].count()
+                if non_empty == 3:
+                    row.iloc[2:5] = row.iloc[1:4]
+                    row.iloc[1] = np.nan
+                elif non_empty == 2:
+                    row.iloc[3:5] = row.iloc[1:3]
+                    row.iloc[1:3] = [np.nan, np.nan]
 
         return df
-
+    
+    elif i <= 28:
+        df.columns = ['Company/Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        for index, row in df.iterrows():
+            second_cell = row.iloc[1]
+            if "Total" in str(row.iloc[0]) or str(second_cell).startswith("$"):
+                row.iloc[2:5] = row.iloc[1:4]
+                row.iloc[1] = np.nan
+        return df
+    
+    elif i <= 39:
+        df.columns = ['Company/Investment', 'Industry', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        return df
+    
+    else:
+        df.columns = ['Company', 'Industry', 'Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        return df
 
 def extra_table_remover(df):
     pattern = re.compile(r"^\s*Total\s+Investments\s*.*$", re.IGNORECASE)
@@ -270,7 +282,7 @@ def extra_table_remover(df):
 
 def first_and_last_check(df):
     try:
-        if not df or df.shape[0] < 2:
+        if df.empty or df.shape[0] < 2:
             return False
 
         first_row_pattern = re.compile(r"^\s*Senior\s+Secured\s+Notes\s*$", re.IGNORECASE)
@@ -286,7 +298,7 @@ def first_and_last_check(df):
         logging.info(f"Last cell: '{last_row_phrase}' - Match: {last_row_check}")
 
         if first_row_check and last_row_check:
-            logging.info(f"PASSED - TABLE VERIFIED")
+            logging.info(f"PASSED - TABLE VERIFIED\n")
             return True
         else:
             logging.info(f"FAILED - First cell: {first_row_phrase}\nLast cell: {last_row_phrase}\n")
@@ -318,18 +330,6 @@ def post_process_excel(file_path):
         workbook = load_workbook(file_path)
         for sheet_name in workbook.sheetnames:
             worksheet = workbook[sheet_name]
-            for column in worksheet.columns:
-                max_length = 0
-                column = list(column)
-                for cell in column:
-                    try:
-                        if len(str(cell.value)) > max_length:
-                            max_length = len(str(cell.value))
-                    except:
-                        pass
-                worksheet.column_dimensions[get_column_letter(column[0].column)].width = max_length
-
-
             for row in worksheet.iter_rows():
                 if row[0].value and isinstance(row[0].value, str) and "Total" in row[0].value:
                     for cell in row:
@@ -353,7 +353,7 @@ def scrape_data():
     urls = links['Filings URL'].str.strip()
     date_reported = links['Reporting date']
 
-    for i in range(len(urls)):
+    for i in range(16, 30):
         if urls[i]:
             content = download_file(urls[i])
         else:
@@ -369,7 +369,7 @@ def scrape_data():
             tables = extract_tables(soup, qtr_date)
 
             combined = consolidate_data(tables)
-            combined = total_row_shift(combined)
+            combined = final_alignment(combined, i)
 
             first_last = first_and_last_check(combined)
             if not first_last:
