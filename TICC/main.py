@@ -253,14 +253,47 @@ def final_alignment(df, i):
     elif i <= 28:
         df.columns = ['Company/Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
         for index, row in df.iterrows():
-            second_cell = row.iloc[1]
-            if "Total" in str(row.iloc[0]) or str(second_cell).startswith("$"):
+            if "Total" in str(row.iloc[0]):
                 row.iloc[2:5] = row.iloc[1:4]
                 row.iloc[1] = np.nan
+            
+            else:
+                non_empty = row.iloc[1:].count()
+                if non_empty == 2:
+                    row.iloc[2:4] = row.iloc[1:3]
+                    row.iloc[1] = np.nan
+
         return df
     
     elif i <= 39:
         df.columns = ['Company/Investment', 'Industry', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        for index, row in df.iterrows():
+            if "Total" in str(row.iloc[0]):
+                row.iloc[3:6] = row.iloc[1:4]
+                row.iloc[1:3] = [np.nan, np.nan]
+
+            else:
+                first_cell = row.iloc[0]
+                second_cell = row.iloc[1]
+                third_cell = row.iloc[2]
+
+                if isinstance(first_cell, str) and str(first_cell) == "-":
+                    row.iloc[3:5] = row.iloc[0:2]
+                    row.iloc[0:2] = [np.nan, np.nan]
+
+                elif isinstance(second_cell, str) and re.match(r'^\s*[$]?\d+(\.\d+)?\s*$', second_cell):
+                    non_empty = row.iloc[1:].count()
+                    if non_empty == 3:
+                        row.iloc[2:5] = row.iloc[1:4]
+                        row.iloc[1] = np.nan
+                    elif non_empty == 2:
+                        row.iloc[3:5] = row.iloc[1:3]
+                        row.iloc[1:3] = [np.nan, np.nan]
+                
+                elif isinstance(third_cell, str) and str(third_cell) == "-":
+                    row.iloc[3:5] = row.iloc[2:4]
+                    row.iloc[2] = np.nan
+
         return df
     
     else:
@@ -353,7 +386,7 @@ def scrape_data():
     urls = links['Filings URL'].str.strip()
     date_reported = links['Reporting date']
 
-    for i in range(16, 30):
+    for i in range(28, 36):
         if urls[i]:
             content = download_file(urls[i])
         else:
