@@ -298,6 +298,20 @@ def final_alignment(df, i):
     
     else:
         df.columns = ['Company', 'Industry', 'Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
+        second_cell = row.iloc[1]
+        for index, row in df.iterrows():
+            if "Total" in str(row.iloc[0]) and second_cell != "—":
+                row.iloc[4:7] = row.iloc[1:4]
+                row.iloc[1:4] = [np.nan, np.nan, np.nan]
+
+            elif "Total" in str(row.iloc[0]) and second_cell == "—":
+                row.iloc[3:7] = row.iloc[1:5]
+                row.iloc[1:3] = [np.nan, np.nan]
+            
+            else:
+                if isinstance(second_cell, str) and re.match(r'^\s*[$]?\d+(\.\d+)?\s*$', second_cell):
+                    row.iloc[2:6] = row.iloc[0:4]
+                    row.iloc[0:2] = [np.nan, np.nan]
         return df
 
 def extra_table_remover(df):
