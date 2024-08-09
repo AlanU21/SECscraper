@@ -312,6 +312,7 @@ def final_alignment(df, i):
                 if isinstance(second_cell, str) and re.match(r'^\s*[$]?\d+(\.\d+)?\s*$', second_cell):
                     row.iloc[2:6] = row.iloc[0:4]
                     row.iloc[0:2] = [np.nan, np.nan]
+                    
         return df
 
 def extra_table_remover(df):
