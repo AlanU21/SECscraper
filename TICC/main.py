@@ -17,7 +17,7 @@ logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(level
 
 
 def setup_writer():
-    return pd.ExcelWriter('cleaned_soi_tables.xlsx', engine='openpyxl')
+    return pd.ExcelWriter('TICC_CLEANED_THRU_Q1_2014.xlsx', engine='openpyxl')
 
 def download_file(url):
     headers = {'User-Agent': "alanuthuppan@email.com"}
@@ -298,8 +298,8 @@ def final_alignment(df, i):
     
     else:
         df.columns = ['Company', 'Industry', 'Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
-        second_cell = row.iloc[1]
         for index, row in df.iterrows():
+            second_cell = row.iloc[1]
             if "Total" in str(row.iloc[0]) and second_cell != "—":
                 row.iloc[4:7] = row.iloc[1:4]
                 row.iloc[1:4] = [np.nan, np.nan, np.nan]
@@ -400,7 +400,7 @@ def scrape_data():
     urls = links['Filings URL'].str.strip()
     date_reported = links['Reporting date']
 
-    for i in range(39, 45):
+    for i in range(len(urls)):
         if urls[i]:
             content = download_file(urls[i])
         else:
