@@ -277,7 +277,7 @@ def final_alignment(df, i):
                 second_cell = row.iloc[1]
                 third_cell = row.iloc[2]
 
-                if isinstance(first_cell, str) and str(first_cell) == "-":
+                if isinstance(first_cell, str) and str(first_cell) == "—":
                     row.iloc[3:5] = row.iloc[0:2]
                     row.iloc[0:2] = [np.nan, np.nan]
 
@@ -290,7 +290,7 @@ def final_alignment(df, i):
                         row.iloc[3:5] = row.iloc[1:3]
                         row.iloc[1:3] = [np.nan, np.nan]
                 
-                elif isinstance(third_cell, str) and str(third_cell) == "-":
+                elif isinstance(third_cell, str) and str(third_cell) == "—":
                     row.iloc[3:5] = row.iloc[2:4]
                     row.iloc[2] = np.nan
 
@@ -386,7 +386,7 @@ def scrape_data():
     urls = links['Filings URL'].str.strip()
     date_reported = links['Reporting date']
 
-    for i in range(28, 36):
+    for i in range(39, 45):
         if urls[i]:
             content = download_file(urls[i])
         else:
