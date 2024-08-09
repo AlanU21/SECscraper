@@ -226,7 +226,7 @@ def consolidate_data(dataframes):
     master_table.columns = master_table.iloc[0]
     master_table = master_table.iloc[1:].reset_index(drop=True)
 
-    logging.info(f"Consolidated data into a single table with shape {master_table.shape}")
+    logging.info(f"Consolidated data into a single table with shape {master_table.shape}\n")
 
     return master_table
 
@@ -256,38 +256,46 @@ def total_row_shift(df):
 
 
 def extra_table_remover(df):
-    pattern = re.compile(r"^\s*Total\s+Investments\s+in\s+Securities\s+and\s+Cash\s+Equivalents\s*$", re.IGNORECASE)
+    pattern = re.compile(r"^\s*Total\s+Investments\s*.*$", re.IGNORECASE)
     if df is not None:
-        for i, cell in enumerate(df.iloc[:, 0]):
-            if isinstance(cell, str) and bool(pattern.match(str(cell).strip())):
-                df = df.iloc[:i+1]
-                logging.info("Extra table removed from this combined DataFrame")
-                break
+        for i in range(len(df) - 1, -1, -1):
+            cell = df.iloc[i, 0]
+            if isinstance(cell, str):
+                cell_content = normalize_text(str(cell))
+                if bool(pattern.search(cell_content)):
+                    df = df.iloc[:i+1]
+                    logging.info("Extra table removed from this combined DataFrame\n")
+                    break
         return df
 
 def first_and_last_check(df):
     try:
-        if df.empty or df.shape[0] < 2:
+        if not df or df.shape[0] < 2:
             return False
 
         first_row_pattern = re.compile(r"^\s*Senior\s+Secured\s+Notes\s*$", re.IGNORECASE)
-        last_row_pattern = re.compile(r"^\s*Total\s+Investments\s+in\s+Securities\s+and\s+Cash\s+Equivalents\s*$", re.IGNORECASE)
+        last_row_pattern = re.compile(r"^\s*Total\s+Investments\s*.*$", re.IGNORECASE)
         
-        first_row_phrase = df.iloc[0, 0]
-        first_row_check = bool(first_row_pattern.match(str(first_row_phrase).strip()))
+        first_row_phrase = normalize_text(str(df.iloc[0, 0]))
+        first_row_check = bool(first_row_pattern.match(first_row_phrase))
 
-        last_row_phrase = df.iloc[-1, 0]
-        last_row_check = bool(last_row_pattern.match(str(last_row_phrase).strip()))
+        last_row_phrase = normalize_text(str(df.iloc[-1, 0]))
+        last_row_check = bool(last_row_pattern.search(last_row_phrase))
+
+        logging.info(f"First cell: '{first_row_phrase}' - Match: {first_row_check}")
+        logging.info(f"Last cell: '{last_row_phrase}' - Match: {last_row_check}")
 
         if first_row_check and last_row_check:
+            logging.info(f"PASSED - TABLE VERIFIED")
             return True
         else:
-            logging.info(f"First cell: {first_row_phrase}\nLast cell: {last_row_phrase}")
+            logging.info(f"FAILED - First cell: {first_row_phrase}\nLast cell: {last_row_phrase}\n")
             return False
     
     except Exception as e:
-        logging.error(f"Failed first and last check: {traceback.format_exc()}")
+        logging.error(f"Error during first and last check: {traceback.format_exc()}")
         return False
+
 
 
 ### CLEAN ###
@@ -345,7 +353,7 @@ def scrape_data():
     urls = links['Filings URL'].str.strip()
     date_reported = links['Reporting date']
 
-    for i in range(25, 30):
+    for i in range(len(urls)):
         if urls[i]:
             content = download_file(urls[i])
         else:
