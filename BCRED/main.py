@@ -60,14 +60,11 @@ def find_relevant_divs(soup, company_name, phrase, date):
 def get_date_from_div(div, phrase):
     date_pattern = r'\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\b'
 
-    # Helper function to search for a date pattern in a given text
     def search_date(text):
         return re.search(date_pattern, text)
 
-    # Helper function to process font tags
     def process_font_tags(font_tags):
         for font_tag in font_tags:
-            # Split the text in the font tag by <br/> tags
             font_contents = font_tag.decode_contents().split('<br/>')
             for content in font_contents:
                 if (match := search_date(content)):
@@ -76,11 +73,9 @@ def get_date_from_div(div, phrase):
 
     def process_div_tags(div_tags):
         for div_tag in div_tags:
-            # Search within the text of the div tag
             if (match := search_date(div_tag.get_text())):
                 return match.group()
 
-            # Process any nested div tags
             nested_divs = div_tag.find_all('div', recursive=False)
             if nested_divs:
                 date = process_div_tags(nested_divs)
@@ -88,9 +83,7 @@ def get_date_from_div(div, phrase):
                     return date
         return None
 
-    # Check for the phrase in div and its children
     if phrase in div.text.lower():
-        # Search in immediate children of the div
         for child in div.children:
             if hasattr(child, 'text') and phrase in child.text.lower():
                 date_candidate = child.find_next_sibling()
@@ -98,30 +91,26 @@ def get_date_from_div(div, phrase):
                     if (match := search_date(date_candidate.get_text())):
                         return match.group()
 
-        # Search within div/span/font tags
         element_containing_phrase = div.find(lambda tag: tag.name in ["div", "span", "font"] and phrase in (tag.get_text() or '').lower())
         if element_containing_phrase:
             if element_containing_phrase.name == 'div':
                 next_div = element_containing_phrase.find_next_sibling('div')
                 if next_div and (match := search_date(next_div.get_text())):
                     return match.group()
-            else:  # For span or font tags
+            else:
                 texts = element_containing_phrase.stripped_strings
                 for text in texts:
                     if (match := search_date(text)):
                         return match.group()
 
-        # Search within table tags and font tags inside tables
         tables = div.find_all('table')
         for table in tables:
             if (match := search_date(table.get_text())):
                 return match.group()
-            # Process font tags within tables
             font_tags_in_table = table.find_all('font')
             if (date_text := process_font_tags(font_tags_in_table)):
                 return date_text
 
-        # Process font tags outside tables
         font_tags_outside_table = div.find_all('font', recursive=False)
         if (date_text := process_font_tags(font_tags_outside_table)):
             return date_text
@@ -148,7 +137,7 @@ def extract_tables(soup, company_name, phrase, date):
             extracted_date = get_date_from_div(div, phrase)
             if extracted_date and normalize_date(extracted_date) == normalize_date(date):
                 next_div = div.find_next_sibling()
-                while next_div.find('table') is None:
+                while next_div is not None and next_div.find('table') is None:
                     next_div = next_div.find_next_sibling()
                 if next_div:
                     table = next_div.find('table')
@@ -291,7 +280,6 @@ def process_standard_row(row, headers, current_investment_type, current_industry
 
 
 def append_row_to_df(data, row_data):
-    # Append the processed row data to the main data list
     data.append(row_data)
     return data
 
@@ -305,6 +293,7 @@ def process_table(table, dfs):
     header_row_info = find_header_row(table)
     if not header_row_info:
         print("No header row found in table.")
+        return
 
     header_row_idx, header_row = header_row_info
     headers = extract_headers(header_row)
@@ -338,7 +327,13 @@ def process_table(table, dfs):
 
     df = pd.DataFrame(data, columns=headers)
     df = clean(df)
-    dfs.append(df)
+
+    if not any(df.equals(existing_df) for existing_df in dfs):
+        dfs.append(df)
+        print("Table processed successfully\n")
+    else:
+        print("Duplicate table found and skipped\n")
+
     print("Table processed succesfully\n")
 
 
@@ -353,21 +348,16 @@ def append_df_to_excel(filename, df, sheet_name, startrow=None, **to_excel_kwarg
         print(f"DataFrame is empty for sheet: {sheet_name}. Skipping.")
         return
 
-    # Create a new Excel file if it doesn't exist
     if not os.path.isfile(filename):
         df.to_excel(filename, sheet_name=sheet_name, startrow=startrow if startrow is not None else 0, index=False, header=True, **to_excel_kwargs)
     else:
-        # Append to the existing file
         with pd.ExcelWriter(filename, engine='openpyxl', mode='a', if_sheet_exists='overlay') as writer:
-            # Check existing sheet names
             existing_sheets = writer.book.sheetnames
 
-            # Determine start row for appending
             if sheet_name in existing_sheets:
                 startrow = writer.book[sheet_name].max_row
                 df.to_excel(writer, sheet_name, startrow=startrow, index=False, header=False, **to_excel_kwargs)
             else:
-                # Create a new sheet if it doesn't exist
                 df.to_excel(writer, sheet_name, startrow=0, index=False, header=True, **to_excel_kwargs)
 
 
@@ -377,10 +367,8 @@ def format_workbook(filename):
     for sheet_name in workbook.sheetnames:
         sheet = workbook[sheet_name]
 
-        # Freeze the top row
         sheet.freeze_panes = 'A2'
 
-        # Bold 'total' rows and autofit column width
         for row in sheet.iter_rows():
             if 'total' in str(row[0].value).lower():
                 for cell in row:
@@ -398,13 +386,14 @@ def format_workbook(filename):
 
 
 
+
 #MAIN
 
 def main():
     filings_path = 'all_filings.xlsx'
     urls = read_filing_links(filings_path)
     dates = read_reporting_dates(filings_path)
-    output_excel = 'cleaned_soi_tables.xlsx'
+    output_excel = 'BCRED_cleaned_soi_tables.xlsx'
 
     filings = zip(urls, dates)
     count = 0

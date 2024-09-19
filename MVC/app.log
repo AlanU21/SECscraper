@@ -1,0 +1,1332 @@
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465920103470/tm2030183-1_10q.htm HTTP/1.1" 200 155008
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465920103470/tm2030183-1_10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2020
+root - INFO - FOUND DATE matching July 31, 2020 in great grandparent's sibling tags near tag: Consolidated
+Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2020 in great grandparent's sibling tags near tag: Consolidated
+Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated
+Schedule of Investments</b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated
+Schedule of Investments - (Continued) </b>
+root - INFO - Incorrect or no date found near parent tag: <p>During fiscal year
+ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of
+the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is
+a substantial portion of MVC Partners operations. Previously, MVC Partners was presented as a portfolio company on the Consolidated
+Schedule of Investments. The consolidation of MVC Partners has not had any material effect on the financial position or net results
+of operations of the Company. There are additional disclosures resulting from this consolidation.</p>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (72, 7)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2020 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465920071447/tm2021768d1_10q.htm HTTP/1.1" 200 141141
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465920071447/tm2021768d1_10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2020
+root - INFO - FOUND DATE matching April 30, 2020 INSIDE table
+root - INFO - FOUND DATE matching April 30, 2020 INSIDE table
+root - INFO - Incorrect or no date found near parent tag: <font><a></a>Consolidated Schedule
+    of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <td><a></a>Consolidated Schedule of Investments - (Continued)</td>
+root - INFO - Incorrect or no date found near parent tag: <p>During fiscal year
+ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations
+of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”)
+is a substantial portion of MVC Partners operations. Previously, MVC Partners was presented as a portfolio company on the Consolidated
+Schedule of Investments. The consolidation of MVC Partners has not had any material effect on the financial position or net results
+of operations of the Company. There are additional disclosures resulting from this consolidation.</p>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (73, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2020 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465920030780/tm2011695d1_10q.htm HTTP/1.1" 200 131223
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465920030780/tm2011695d1_10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2020
+root - INFO - FOUND DATE matching January 31, 2020 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2020 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b><a></a>Consolidated Schedule of Investments</b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated
+Schedule of Investments - (Continued) </b>
+root - INFO - Incorrect or no date found near parent tag: <p>During fiscal year
+ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the
+Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial
+portion of MVC Partners operations. Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule
+of Investments. The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations
+of the Company. There are additional disclosures resulting from this consolidation.</p>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (58, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 3
+root - INFO - Data processing for January 31, 2020 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465920003977/a20-1716_110k.htm HTTP/1.1" 200 263270
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465920003977/a20-1716_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2019
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.</font>
+root - INFO - FOUND DATE matching October 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any</font>
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated   Schedule of Investments</a>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (79, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2019 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465919049123/a19-18276_110q.htm HTTP/1.1" 200 159464
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465919049123/a19-18276_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2019
+root - INFO - FOUND DATE matching July 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (81, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2019 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000141057819000386/a19-11089_110q.htm HTTP/1.1" 200 156990
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000141057819000386/a19-11089_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2019
+root - INFO - FOUND DATE matching April 30, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (78, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2019 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465919013666/a19-6034_110q.htm HTTP/1.1" 200 150815
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465919013666/a19-6034_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2019
+root - INFO - FOUND DATE matching January 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2019 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (81, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2019 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465919001862/a19-2282_110k.htm HTTP/1.1" 200 261648
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465919001862/a19-2282_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2018
+root - INFO - FOUND DATE matching October 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (76, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2018 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465918055850/a18-26049_110q.htm HTTP/1.1" 200 160359
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465918055850/a18-26049_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2018
+root - INFO - FOUND DATE matching July 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (70, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2018 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465918039405/a18-14374_110q.htm HTTP/1.1" 200 161236
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465918039405/a18-14374_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2018
+root - INFO - FOUND DATE matching April 30, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (73, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2018 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465918026192/a18-11098_110qa.htm HTTP/1.1" 200 94058
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465918026192/a18-11098_110qa.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2018
+root - INFO - FOUND DATE matching January 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (65, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2018 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465918016749/a18-7739_110q.htm HTTP/1.1" 200 148038
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465918016749/a18-7739_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2018
+root - INFO - FOUND DATE matching January 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2018 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (65, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2018 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465918002418/a18-2655_110k.htm HTTP/1.1" 200 260733
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465918002418/a18-2655_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2017
+root - INFO - FOUND DATE matching October 31, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule   of Investments</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (56, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2017 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465917056567/a17-21381_110q.htm HTTP/1.1" 200 158741
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465917056567/a17-21381_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2017
+root - INFO - FOUND DATE matching July 31, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2017 in great grandparent's sibling tags near tag:  Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font> Consolidated Schedule of Investments - (Continued) </font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (60, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2017 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465917038201/a17-13275_110q.htm HTTP/1.1" 200 155935
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465917038201/a17-13275_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2017
+root - INFO - FOUND DATE matching April 30, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (74, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2017 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465917016119/a17-8121_110q.htm HTTP/1.1" 200 142606
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465917016119/a17-8121_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2017
+root - INFO - FOUND DATE matching January 31, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2017 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (81, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2017 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465917002596/a17-2463_110k.htm HTTP/1.1" 200 262329
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465917002596/a17-2463_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2016
+root - INFO - FOUND DATE matching October 31, 2016 in parent's sibling tags
+root - INFO - FOUND DATE matching October 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule   of Investments</font>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 2 tables into single table with shape (86, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2016 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465916143998/a16-18052_110q.htm HTTP/1.1" 200 150858
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465916143998/a16-18052_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2016
+root - INFO - FOUND DATE matching July 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (83, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2016 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465916141731/a16-11660_110q.htm HTTP/1.1" 200 151337
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465916141731/a16-11660_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2016
+root - INFO - FOUND DATE matching April 30, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (82, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2016 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465916121068/a16-10452_110q.htm HTTP/1.1" 200 141788
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465916121068/a16-10452_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2016
+root - INFO - FOUND DATE matching January 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2016 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (76, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2016 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465916121062/a16-9327_110k.htm HTTP/1.1" 200 252451
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465916121062/a16-9327_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2015
+root - INFO - FOUND DATE matching October 31, 2015 in parent's sibling tags
+root - INFO - FOUND DATE matching October 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated   Schedule of Investments</font>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 2 tables into single table with shape (86, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2015 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465916092532/a16-2959_110q.htm HTTP/1.1" 200 158416
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465916092532/a16-2959_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2015
+root - INFO - FOUND DATE matching July 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the MVC Private Equity Fund, L.P. (“PE Fund”) is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (85, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2015 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465915082067/a15-23978_110q.htm HTTP/1.1" 200 153288
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465915082067/a15-23978_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2015
+root - INFO - FOUND DATE matching April 30, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (81, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2015 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465915082066/a15-23829_110q.htm HTTP/1.1" 200 144503
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465915082066/a15-23829_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2015
+root - INFO - FOUND DATE matching January 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2015 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  There are additional disclosures resulting from this consolidation.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (80, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2015 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465915070712/a15-20774_110k.htm HTTP/1.1" 200 327759
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465915070712/a15-20774_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2014
+root - INFO - Incorrect or no date found near parent tag: <font>GP and the PE Fund, under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund.  During the fiscal year ended October 31, 2012 and thereafter, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  </font>
+root - INFO - FOUND DATE matching October 31, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued) </font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (80, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2014 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465914065466/a14-20449_110q.htm HTTP/1.1" 200 145677
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465914065466/a14-20449_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2014
+root - INFO - FOUND DATE matching July 31, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (81, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2014 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465914044372/a14-14828_110q.htm HTTP/1.1" 200 138228
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465914044372/a14-14828_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2014
+root - INFO - FOUND DATE matching April 30, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2014 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (78, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2014 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465914018792/a14-7688_110q.htm HTTP/1.1" 200 125568
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465914018792/a14-7688_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2014
+root - ERROR - NO TABLES FOUND for this filing
+
+root - INFO - Data processing for January 31, 2014 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465914001869/a14-1377_110k.htm HTTP/1.1" 200 207472
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465914001869/a14-1377_110k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2013
+root - INFO - Incorrect or no date found near parent tag: <font>the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - FOUND DATE matching October 31, 2013 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2013 in great grandparent's sibling tags near tag:  Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued) </font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012 and thereafter, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <font>Given this separate arrangement with the GP and the PE Fund (the “PM Agreement”), under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012 and thereafter, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated   Schedule of Investments</a>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (74, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2013 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465913068752/a13-19447_110q.htm HTTP/1.1" 200 129836
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465913068752/a13-19447_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2013
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching July 31, 2013 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2013 in great grandparent's sibling tags near tag:  Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <font>outstanding voting securities of the issuer (“Non-Diversified Investments”) through the PE Fund. As previously disclosed, the Company is limited in its ability to make Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees generated by the PE Fund and its portfolio companies and a portion of any carried interest generated by the PE Fund.  Given this separate arrangement with the GP and the PE Fund (the “PM Agreement”), under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.</font>
+root - INFO - Incorrect or no date found near parent tag: <font>invest approximately $20.1 million in the PE Fund.  The PE Fund closed on approximately $104 million of capital commitments.  The Company’s Board of Directors authorized the establishment of, and investment in, the PE Fund for a variety of reasons, including the Company’s ability to make Non-Diversified Investments through the PE Fund. As previously disclosed, the Company is limited in its ability to make Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees and any carried interest generated by the PE Fund and its portfolio companies.  Given this separate arrangement with the GP and the PE Fund, under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  Please see Note 2 of our consolidated financial statements “Consolidation” for more information.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (72, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2013 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465913048080/a13-14336_110q.htm HTTP/1.1" 200 124231
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465913048080/a13-14336_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2013
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated   Schedule of Investments</a>
+root - INFO - FOUND DATE matching April 30, 2013 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2013 in great grandparent's sibling tags near tag:  Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <font>On October 29, 2010, through MVC Partners and MVCFS, the Company committed to invest approximately $20.1 million in the PE Fund.  The PE Fund has closed on approximately $104 million of capital commitments.  The Company’s Board of Directors authorized the establishment of, and investment in, the PE Fund for a variety of reasons, including the Company’s ability to make additional investments that represent more than 5% of its total assets or more than 10% of the outstanding voting securities of the issuer (“Non-Diversified Investments”) through the PE Fund. As previously disclosed, the Company is limited in its ability to make Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees generated by the PE Fund and its portfolio companies and a portion of any carried interest generated by the PE Fund.  Given this separate arrangement with the GP and the PE Fund (the “PM Agreement”), under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.</font>
+root - INFO - Incorrect or no date found near parent tag: <font>establishment of a PE Fund, for which an indirect wholly-owned subsidiary of the Company serves as the GP and which may raise up to $250 million.  On October 29, 2010, through MVC Partners and MVCFS, the Company committed to invest approximately $20.1 million in the PE Fund.  The PE Fund closed on approximately $104 million of capital commitments.  The Company’s Board of Directors authorized the establishment of, and investment in, the PE Fund for a variety of reasons, including the Company’s ability to make Non-Diversified Investments through the PE Fund. As previously disclosed, the Company is limited in its ability to make Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees and any carried interest generated by the PE Fund and its portfolio companies.  Given this separate arrangement with the GP and the PE Fund, under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  Please see Note 2 of our consolidated financial statements “Consolidation” for more information.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (69, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2013 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000110465913018407/a13-6720_110q.htm HTTP/1.1" 200 119050
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000110465913018407/a13-6720_110q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2013
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated   Schedule of Investments</a>
+root - INFO - FOUND DATE matching January 31, 2013 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2013 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments<a></a></font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of Investments - (Continued)</font>
+root - INFO - Incorrect or no date found near parent tag: <font>During fiscal year ended October 31, 2012, MVC Partners, LLC (“MVC Partners”) was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  </font>
+root - INFO - Incorrect or no date found near parent tag: <font>Company’s ability to make additional investments that represent more than 5% of its total assets or more than 10% of the outstanding voting securities of the issuer (“Non-Diversified Investments”) through the PE Fund. As previously disclosed, the Company is currently restricted from making Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees generated by the PE Fund and its portfolio companies and a portion of any carried interest generated by the PE Fund.  Given this separate arrangement with the GP and the PE Fund (the “PM Agreement”), under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a Portfolio Company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.</font>
+root - INFO - Incorrect or no date found near parent tag: <font>We may also seek to achieve our investment objective by establishing a subsidiary or subsidiaries that would serve as general partner to a private equity or other investment funds.  Furthermore, the Board of Directors authorized the establishment of a PE Fund, for which an indirect wholly-owned subsidiary of the Company serves as the GP and which may raise up to $250 million.  On October 29, 2010, through MVC Partners and MVCFS, the Company committed to invest approximately $20.1 million in the PE Fund.  The PE Fund closed on approximately $104 million of capital commitments.  The Company’s Board of Directors authorized the establishment of, and investment in, the PE Fund for a variety of reasons, including the Company’s ability to make Non-Diversified Investments through the PE Fund. As previously disclosed, the Company is currently restricted from making Non-Diversified Investments.  For services provided to the PE Fund, the GP and MVC Partners are together entitled to receive 25% of all management fees and other fees paid by the PE Fund and its portfolio companies and up to 30% of the carried interest generated by the PE Fund.  Further, at the direction of the Board of Directors, the GP retained TTG Advisers to serve as the portfolio manager of the PE Fund.  In exchange for providing those services, and pursuant to the Board of Directors’ authorization and direction, TTG Advisers is entitled to receive the balance of the fees and any carried interest generated by the PE Fund and its portfolio companies.  Given this separate arrangement with the GP and the PE Fund, under the terms of the Company’s Advisory Agreement with TTG Advisers, TTG Advisers is not entitled to receive from the Company a management fee or an incentive fee on assets of the Company that are invested in the PE Fund. During the fiscal year ended October 31, 2012, MVC Partners was consolidated with the operations of the Company as MVC Partners’ limited partnership interest in the PE Fund is a substantial portion of MVC Partners operations.  Previously, MVC Partners was presented as a portfolio company on the Consolidated Schedule of Investments.  The consolidation of MVC Partners has not had any material effect on the financial position or net results of operations of the Company.  Please see Note 2 of our consolidated financial statements “Consolidation” for more information.</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (71, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2013 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000119312512515421/d458484d10k.htm HTTP/1.1" 200 173697
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000119312512515421/d458484d10k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2012
+root - INFO - FOUND DATE matching October 31, 2012 in parent tag
+root - INFO - FOUND DATE matching October 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments 
+root - INFO - FOUND DATE matching October 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments — (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments — (Continued) </b>
+root - INFO - FOUND DATE matching October 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments — (Continued) 
+root - INFO - FOUND DATE matching October 31, 2012 in parent tag
+root - INFO - FOUND DATE matching October 31, 2012 in parent tag
+root - INFO - FOUND DATE matching October 31, 2012 in parent tag
+root - INFO - # of tables extracted and initially cleaned: 7
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 2 tables into single table with shape (70, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2012 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000119312512386738/d406501d10q.htm HTTP/1.1" 200 98613
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000119312512386738/d406501d10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2012
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching July 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments 
+root - INFO - FOUND DATE matching July 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments—(Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments—(Continued) </b>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (73, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2012 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000119312512265923/d363690d10q.htm HTTP/1.1" 200 96054
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000119312512265923/d363690d10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2012
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching April 30, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments - (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments - (Continued) </b>
+root - INFO - # of tables extracted and initially cleaned: 1
+root - INFO - Consolidated 1 tables into single table with shape (25, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2012 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000119312512107976/d308697d10q.htm HTTP/1.1" 200 85730
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000119312512107976/d308697d10q.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2012
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments </a>
+root - INFO - FOUND DATE matching January 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments 
+root - INFO - FOUND DATE matching January 31, 2012 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments—(Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments—(Continued) </b>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (80, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2012 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000119312512010050/d270682d10k.htm HTTP/1.1" 200 162204
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000119312512010050/d270682d10k.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2011
+root - INFO - FOUND DATE matching October 31, 2011 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments 
+root - INFO - FOUND DATE matching October 31, 2011 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments — (Continued) 
+root - INFO - Incorrect or no date found near parent tag: <b><a></a>Consolidated Schedule of Investments </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments — (Continued) </b>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments — (Continued) </b>
+root - INFO - FOUND DATE matching October 31, 2011 in parent tag
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 2 tables into single table with shape (73, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2011 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012311083063/c66049e10vq.htm HTTP/1.1" 200 89586
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012311083063/c66049e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2011
+root - INFO - FOUND DATE matching July 31, 2011 in parent tag
+root - INFO - FOUND DATE matching July 31, 2011 in parent tag
+root - INFO - FOUND DATE matching July 31, 2011 in parent tag
+root - INFO - FOUND DATE matching July 31, 2011 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments — (Continued)</b>
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 3 tables into single table with shape (129, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2011 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012311056077/c64848e10vq.htm HTTP/1.1" 200 86527
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012311056077/c64848e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2011
+root - INFO - FOUND DATE matching April 30, 2011 in parent tag
+root - INFO - FOUND DATE matching April 30, 2011 in parent tag
+root - INFO - FOUND DATE matching April 30, 2011 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - FOUND DATE matching April 30, 2011 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2011 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 4 tables into single table with shape (155, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2011 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012311023115/c63373e10vq.htm HTTP/1.1" 200 81144
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012311023115/c63373e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2011
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching January 31, 2011 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2011 in parent tag
+root - INFO - FOUND DATE matching January 31, 2011 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - Consolidated 3 tables into single table with shape (122, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for January 31, 2011 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012310115486/c61644e10vk.htm HTTP/1.1" 200 172012
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012310115486/c61644e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2010
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - FOUND DATE matching October 31, 2010 INSIDE table
+root - INFO - # of tables extracted and initially cleaned: 1
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Data processing for October 31, 2010 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012310084725/c60107e10vq.htm HTTP/1.1" 200 88226
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012310084725/c60107e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2010
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching July 31, 2010 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2010 in parent tag
+root - INFO - FOUND DATE matching July 31, 2010 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2010 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - Consolidated 4 tables into single table with shape (186, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2010 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012310054727/c58451e10vq.htm HTTP/1.1" 200 86647
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012310054727/c58451e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2010
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching April 30, 2010 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2010 in parent tag
+root - INFO - FOUND DATE matching April 30, 2010 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments — (Continued)</b>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - Consolidated 3 tables into single table with shape (162, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2010 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012310023605/c56768e10vq.htm HTTP/1.1" 200 79388
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012310023605/c56768e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2010
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching January 31, 2010 in parent tag
+root - INFO - FOUND DATE matching January 31, 2010 in parent tag
+root - INFO - FOUND DATE matching January 31, 2010 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments 
+root - INFO - FOUND DATE matching January 31, 2010 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued) 
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - Consolidated 4 tables into single table with shape (200, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for January 31, 2010 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012309072693/c55136e10vk.htm HTTP/1.1" 200 168335
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012309072693/c55136e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2009
+root - INFO - FOUND DATE matching October 31, 2009 in parent tag
+root - INFO - FOUND DATE matching October 31, 2009 in parent tag
+root - INFO - FOUND DATE matching October 31, 2009 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <td>
+    Consolidated Schedule of Investments
+</td>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - ERROR - Headers do not match across tables. Skipping inconsistent table.
+CORRECT headers: ['Company' 'Industry' 'Investment' 'Principal' 'Cost' 'Fair Value']
+CORRECT header length: 6
+Current headers:['(c)'
+ 'All of the Fund’s equity and  debt investments are issued by eligible portfolio companies, as  defined in the Investment Company Act of 1940, except Lockorder  Limited, MVC Automotive Group B.V., SafeStone Technologies  Limited, Security Holdings B.V., SGDA Europe B.V., SGDA  Sanierungsgesellschaft fur Deponien und Altlasten mbH, SIA  Tekers Invest, and Velocitius B.V. The Fund makes available  significant managerial assistance to all of the portfolio  companies in which it has invested.']
+Current header Length: 2
+      0                                                  1
+0   NaN                                                NaN
+1   (a)  These securities are restricted  from public s...
+2   NaN                                                NaN
+3   (b)  These securities accrue a portion  of their in...
+4   NaN                                                NaN
+5   (c)  All of the Fund’s equity and  debt investments...
+6   NaN                                                NaN
+7   (d)                       Non-income producing assets.
+8   NaN                                                NaN
+9   (e)  The principal operations of these  portfolio c...
+10  NaN                                                NaN
+11  (f)  Percentages are based on net assets  of $424,4...
+12  NaN                                                NaN
+13  (g)  See Note 3 for further  information regarding ...
+14  NaN                                                NaN
+15  (h)  All or a portion of these  securities have bee...
+16  NaN                                                NaN
+17  (i)  All or a portion of the accrued  interest on t...
+18  NaN                                                NaN
+19  (j)                                Legacy Investments.
+20  NaN                                                NaN
+21    —                   Denotes zero cost or fair value.
+
+root - INFO - Consolidated 3 tables into single table with shape (100, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2009 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012309041479/c53429e10vq.htm HTTP/1.1" 200 83370
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012309041479/c53429e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2009
+root - INFO - FOUND DATE matching July 31, 2009 INSIDE table
+root - INFO - FOUND DATE matching July 31, 2009 in parent tag
+root - INFO - FOUND DATE matching July 31, 2009 in parent tag
+root - INFO - FOUND DATE matching July 31, 2009 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2009 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 4 tables into single table with shape (207, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2009 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095012309011396/c51626e10vq.htm HTTP/1.1" 200 81356
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095012309011396/c51626e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2009
+root - INFO - FOUND DATE matching April 30, 2009 INSIDE table
+root - INFO - FOUND DATE matching April 30, 2009 in parent tag
+root - INFO - FOUND DATE matching April 30, 2009 in parent tag
+root - INFO - FOUND DATE matching April 30, 2009 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2009 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 4 tables into single table with shape (204, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2009 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013709001607/c49740e10vq.htm HTTP/1.1" 200 77684
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013709001607/c49740e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2009
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching January 31, 2009 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2009 in parent tag
+root - INFO - FOUND DATE matching January 31, 2009 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2009 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (continued)
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - Consolidated 4 tables into single table with shape (205, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for January 31, 2009 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013708014563/c48321e10vk.htm HTTP/1.1" 200 168556
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013708014563/c48321e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2008
+root - INFO - FOUND DATE matching October 31, 2008 in parent tag
+root - INFO - FOUND DATE matching October 31, 2008 in parent tag
+root - INFO - FOUND DATE matching October 31, 2008 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <td>
+    Consolidated Schedule of Investments
+</td>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - ERROR - Headers do not match across tables. Skipping inconsistent table.
+CORRECT headers: ['Company' 'Industry' 'Investment' 'Principal' 'Cost' 'Fair Value']
+CORRECT header length: 6
+Current headers:['(c)'
+ 'All of the Fund’s equity and  debt investments are issued by eligible portfolio companies, as  defined in the Investment Company Act of 1940, except Lockorder  Limited, MVC Automotive Group B.V., SafeStone Technologies  Limited, Security Holdings B.V., SGDA Europe B.V., SGDA  Sanierungsgesellschaft fur Deponien und Altlasten mbH, SIA  Tekers Invest, and Velocitius B.V. The Fund makes available  significant managerial assistance to all of the portfolio  companies in which it has invested.']
+Current header Length: 2
+      0                                                  1
+0   NaN                                                NaN
+1   (a)  These securities are restricted  from public s...
+2   NaN                                                NaN
+3   (b)  These securities accrue a portion  of their in...
+4   NaN                                                NaN
+5   (c)  All of the Fund’s equity and  debt investments...
+6   NaN                                                NaN
+7   (d)                       Non-income producing assets.
+8   NaN                                                NaN
+9   (e)  The principal operations of these  portfolio c...
+10  NaN                                                NaN
+11  (f)  Percentages are based on net assets  of $421,8...
+12  NaN                                                NaN
+13  (g)  See Note 3 for further  information regarding ...
+14  NaN                                                NaN
+15  (h)  All or a portion of these  securities have bee...
+16  NaN                                                NaN
+17  (i)  All or a portion of the accrued  interest on t...
+18  NaN                                                NaN
+19    —                   Denotes zero cost or fair value.
+
+root - INFO - Consolidated 3 tables into single table with shape (102, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2008 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013408016184/c35243e10vq.htm HTTP/1.1" 200 83742
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013408016184/c35243e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2008
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching July 31, 2008 in parent tag
+root - INFO - FOUND DATE matching July 31, 2008 in parent tag
+root - INFO - FOUND DATE matching July 31, 2008 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2008 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - Consolidated 4 tables into single table with shape (213, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2008 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013708008272/c27223e10vq.htm HTTP/1.1" 200 79466
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013708008272/c27223e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2008
+root - INFO - FOUND DATE matching April 30, 2008 in parent tag
+root - INFO - FOUND DATE matching April 30, 2008 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2008 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments — (Continued)
+root - INFO - FOUND DATE matching April 30, 2008 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching April 30, 2008 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 4 tables into single table with shape (219, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2008 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013708007175/z26458e10vkza.htm HTTP/1.1" 200 164427
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013708007175/z26458e10vkza.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2007
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <td>
+    Consolidated Schedule of Investments
+</td>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - Consolidated 3 tables into single table with shape (114, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2007 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013708003509/c24481e10vq.htm HTTP/1.1" 200 73503
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013708003509/c24481e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2008
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching January 31, 2008 in parent tag
+root - INFO - FOUND DATE matching January 31, 2008 in parent tag
+root - INFO - FOUND DATE matching January 31, 2008 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching January 31, 2008 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - Consolidated 4 tables into single table with shape (223, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for January 31, 2008 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013707019157/c22336e10vk.htm HTTP/1.1" 200 164136
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013707019157/c22336e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2007
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - FOUND DATE matching October 31, 2007 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <td>
+    Consolidated Schedule of Investments
+</td>
+root - INFO - # of tables extracted and initially cleaned: 3
+root - INFO - Consolidated 3 tables into single table with shape (114, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2007 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013707013871/c18339e10vq.htm HTTP/1.1" 200 80376
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013707013871/c18339e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2007
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of Investments</a>
+root - INFO - FOUND DATE matching July 31, 2007 in great grandparent's sibling tags near tag: Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2007 in parent tag
+root - INFO - FOUND DATE matching July 31, 2007 in parent tag
+root - INFO - FOUND DATE matching July 31, 2007 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching July 31, 2007 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments — (Continued)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - ERROR - Headers do not match across tables. Skipping inconsistent table.
+CORRECT headers: ['Company' 'Industry' 'Investment' 'Principal' 'Cost' 'Fair Value']
+CORRECT header length: 6
+Current headers:['(c)'
+ 'All of the Fund’s equity and debt investments are issued by eligible portfolio companies, as defined in the Investment Company Act of 1940, except auto MOTOL BENI, Genevac U.S. Holdings, Inc., Lockorder Limited, SafeStone Technologies Limited, SGDA Sanierungsgesellschaft fur Deponien und Altlasten, SIA Tekers Invest and Velocitius B.V. The Fund makes available significant managerial assistance to all of the portfolio companies in which it has invested.']
+Current header Length: 2
+      0                                                  1
+0   NaN                                                NaN
+1   (a)  These securities are restricted from public sa...
+2   NaN                                                NaN
+3   (b)  These securities accrue a portion of their int...
+4   NaN                                                NaN
+5   (c)  All of the Fund’s equity and debt investments ...
+6   NaN                                                NaN
+7   (d)                       Non-income producing assets.
+8   NaN                                                NaN
+9   (e)  The principal operations of these portfolio co...
+10  NaN                                                NaN
+11  (f)  Percentages are based on net assets of $363,45...
+12  NaN                                                NaN
+13  (g)  See Note 3 for further information regarding “...
+14  NaN                                                NaN
+15  (h)  All or a portion of these securities have been...
+16  NaN                                                NaN
+17    -                      Denotes zero Cost/fair value.
+
+root - INFO - Consolidated 5 tables into single table with shape (196, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2007 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013707008621/c15770e10vq.htm HTTP/1.1" 200 87502
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013707008621/c15770e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2007
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments</b>
+root - INFO - FOUND DATE matching April 30, 2007 in parent tag
+root - INFO - FOUND DATE matching April 30, 2007 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (60, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2007 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013707003588/c13019e10vq.htm HTTP/1.1" 200 78937
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013707003588/c13019e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2007
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>MVC
+    Capital, Inc.
+
+    Consolidated Schedule of Investments
+</font>
+root - INFO - FOUND DATE matching January 31, 2007 in parent tag
+root - INFO - FOUND DATE matching January 31, 2007 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>MVC
+    Capital, Inc.
+    Consolidated Schedule of Investments
+    October 31, 2006</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (58, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for January 31, 2007 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013707000201/c11064e10vk.htm HTTP/1.1" 200 155115
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013707000201/c11064e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2006
+root - INFO - FOUND DATE matching October 31, 2006 in parent tag
+root - INFO - FOUND DATE matching October 31, 2006 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+    October 31, 2005</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)
+    October 31, 2005</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated Schedule of
+    Investments
+    </font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (88, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for October 31, 2006 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013706009808/c08285e10vq.htm HTTP/1.1" 200 82927
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013706009808/c08285e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2006
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments
+</font>
+root - INFO - FOUND DATE matching July 31, 2006 in great grandparent's sibling tags near tag: Consolidated
+    Schedule of Investments — (Continued)
+root - INFO - FOUND DATE matching July 31, 2006 in great grandparent's sibling tags near tag: Consolidated
+    Schedule of Investments — (Continued)
+root - INFO - Incorrect or no date found near parent tag: <font>MVC
+    Capital, Inc.
+    Consolidated Schedule of Investments
+    October 31, 2005</font>
+root - INFO - Incorrect or no date found near parent tag: <font>Consolidated
+    Schedule of Investments — (Continued)</font>
+root - INFO - # of tables extracted and initially cleaned: 2
+root - INFO - Consolidated 2 tables into single table with shape (49, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for July 31, 2006 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013706006717/c05869e10vq.htm HTTP/1.1" 200 68545
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013706006717/c05869e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2006
+root - INFO - FOUND DATE matching April 30, 2006 INSIDE table
+root - INFO - FOUND DATE matching April 30, 2006 in parent tag
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching April 30, 2006 in grandparent's sibling tags
+root - INFO - # of tables extracted and initially cleaned: 8
+root - INFO - No headers found, removing irrelevant table
+root - ERROR - Headers do not match across tables. Skipping inconsistent table.
+CORRECT headers: ['Company' 'Industry' 'Investment' 'Principal' 'Cost' 'Fair Value']
+CORRECT header length: 6
+Current headers:['(c)'
+ 'All of the Fund’s equity and debt investments are issued by  eligible portfolio companies, as defined in the Investment  Company Act of 1940, except Baltic Motors Corporation, Safestone  Technologies PLC and SGDA Sanierungsgesellschaft fur Deponien  und Altasten. The Fund makes available significant managerial  assistance to all of the portfolio companies in which it has  invested.']
+Current header Length: 2
+      0                                                  1
+0   NaN                                                NaN
+1   (b)  These securities accrue a portion of their int...
+2   NaN                                                NaN
+3   (c)  All of the Fund’s equity and debt investments ...
+4   NaN                                                NaN
+5   (d)                       Non-income producing assets.
+6   NaN                                                NaN
+7   (e)  Includes warrants to purchase a number of shar...
+8   NaN                                                NaN
+9   (f)  The principal operations of these portfolio co...
+10  NaN                                                NaN
+11  (g)  Percentages are based on net assets of $198,73...
+12  NaN                                                NaN
+13  (h)  See Note 3 to the financial statements for fur...
+14  NaN                                                NaN
+15    —                      Denotes zero cost/fair value.
+
+root - INFO - Consolidated 7 tables into single table with shape (180, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for April 30, 2006 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013706002756/c03168e10vq.htm HTTP/1.1" 200 60779
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013706002756/c03168e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2006
+root - INFO - Incorrect or no date found near parent tag: <a>Consolidated Schedule of
+    Investments — January 31, 2005 —
+    October 31, 2005</a>
+root - INFO - FOUND DATE matching January 31, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching January 31, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching January 31, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching January 31, 2006 in grandparent's sibling tags
+root - INFO - FOUND DATE matching January 31, 2006 in grandparent's sibling tags
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - Consolidated 5 tables into single table with shape (146, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for January 31, 2006 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013705015237/c00851e10vk.htm HTTP/1.1" 200 114502
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013705015237/c00851e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2005
+root - INFO - FOUND DATE matching October 31, 2005 in parent tag
+root - INFO - FOUND DATE matching October 31, 2005 in grandparent's sibling tags
+root - INFO - Incorrect or no date found near parent tag: <div>
+Consolidated Schedule of Investments — (Continued)
+</div>
+root - INFO - Incorrect or no date found near parent tag: <div>
+Consolidated Schedule of Investments — (Continued)
+</div>
+root - INFO - FOUND DATE matching October 31, 2005 in parent tag
+root - INFO - FOUND DATE matching October 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching October 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching October 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching October 31, 2005 in parent tag
+root - INFO - # of tables extracted and initially cleaned: 7
+root - INFO - No headers found, removing irrelevant table
+root - ERROR - Headers do not match across tables. Skipping inconsistent table.
+CORRECT headers: ['Company' 'Industry' 'Investment' 'Principal' 'Cost' 'Fair Value']
+CORRECT header length: 6
+Current headers:['Portfolio Company' 'Investment(1)' 'To Income(5)' 'Other(2)' 'Value'
+ 'Additions(3)' 'Reductions(4)' 'Value' nan]
+Current header Length: 9
+                                                    0                1             2         3        4             5              6         7        8
+0                                                 NaN              NaN           NaN       NaN      NaN           NaN            NaN       NaN      NaN
+1                               Amount of Interest or              NaN           NaN       NaN      NaN           NaN            NaN       NaN      NaN
+2                                  Dividends Credited      October 31,   October 31,       NaN      NaN           NaN            NaN       NaN      NaN
+3                                                2004            Gross         Gross      2005      NaN           NaN            NaN       NaN      NaN
+4                                   Portfolio Company    Investment(1)  To Income(5)  Other(2)    Value  Additions(3)  Reductions(4)     Value      NaN
+5                                                 NaN              NaN           NaN       NaN      NaN           NaN            NaN       NaN      NaN
+6                       Companies More than 25% owned              NaN           NaN       NaN      NaN           NaN            NaN       NaN      NaN
+7                           Baltic Motors Corporation             Loan        456250         —  4500000             —              —   4500000      NaN
+8                             (Automotive Dealership)     Common Stock             —         —  6000000       1500000              —   7500000      NaN
+9                            Ohio Medical Corporation     Common Stock             —         —        —      17000000              —  17000000      NaN
+10                      (Medical Device Manufacturer)              NaN           NaN       NaN      NaN           NaN            NaN       NaN      NaN
+11  SGDA Sanierungsgesellschaft fur Deponien und A...             Loan        263103         —        —       4304560              —   4304560      NaN
+12                                 (Soil Remediation)         Revolver         23624         —        —       1237700              —   1237700      NaN
+13                                    Equity Interest                —             —         —   315000             —         315000       NaN      NaN
+14             Timberland Machines & Irrigation, Inc.             Loan       1048624         —  6042164        276520              —   6318684      NaN
+15  (Distributer — Landscaping & Irrigation  Equip...         Revolver        194374         —        —       4500000     (1,250,000         )  3250000
+16                                       Common Stock                —             —   4500000        —             —        4500000       NaN      NaN
+17                                           Warrants                —             —         —        —             —              —       NaN      NaN
+18                              Vendio Services, Inc.     Common Stock             —         —        —             —              —         —      NaN
+19                                       (Technology)  Preferred Stock             —         —  1134001       1565999              —   2700000      NaN
+
+root - INFO - Consolidated 6 tables into single table with shape (161, 6)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2005 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013705011136/c98286e10vq.htm HTTP/1.1" 200 63681
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013705011136/c98286e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: July 31, 2005
+root - INFO - FOUND DATE matching July 31, 2005 INSIDE table
+root - INFO - FOUND DATE matching July 31, 2005 in parent tag
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - FOUND DATE matching July 31, 2005 in grandparent's sibling tags
+root - INFO - # of tables extracted and initially cleaned: 10
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 3 tables into single table with shape (70, 5)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for July 31, 2005 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013705007149/c95857e10vq.htm HTTP/1.1" 200 50301
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013705007149/c95857e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: April 30, 2005
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - FOUND DATE matching April 30, 2005 in parent tag
+root - INFO - # of tables extracted and initially cleaned: 6
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 2 tables into single table with shape (40, 6)
+root - INFO - NUMBER OF TABLES VERIFIED
+root - INFO - Data processing for April 30, 2005 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013705002872/c92882e10vq.htm HTTP/1.1" 200 43973
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013705002872/c92882e10vq.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: January 31, 2005
+root - INFO - FOUND DATE matching January 31, 2005 in parent tag
+root - INFO - Incorrect or no date found near parent tag: <b>Consolidated Schedule of Investments</b>
+root - INFO - FOUND DATE matching January 31, 2005 in parent tag
+root - INFO - FOUND DATE matching January 31, 2005 in parent tag
+root - INFO - FOUND DATE matching January 31, 2005 in parent tag
+root - INFO - # of tables extracted and initially cleaned: 4
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Data processing for January 31, 2005 completed successfully.
+
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1099941/000095013705000403/c91188e10vk.htm HTTP/1.1" 200 95022
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1099941/000095013705000403/c91188e10vk.htm
+charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+root - INFO - Current file: October 31, 2004
+root - INFO - FOUND DATE matching October 31, 2004 in parent tag
+root - INFO - FOUND DATE matching October 31, 2004 in parent tag
+root - INFO - FOUND DATE matching October 31, 2004 in parent tag
+root - INFO - FOUND DATE matching October 31, 2004 in parent tag
+root - INFO - FOUND DATE matching October 31, 2004 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments
+root - INFO - FOUND DATE matching October 31, 2004 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments (Continued)
+root - INFO - FOUND DATE matching October 31, 2004 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments (Continued)
+root - INFO - FOUND DATE matching October 31, 2004 in great grandparent's sibling tags near tag: 
+Consolidated Schedule of Investments (Continued)
+root - INFO - FOUND DATE matching October 31, 2004 INSIDE table
+root - INFO - # of tables extracted and initially cleaned: 9
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - No headers found, removing irrelevant table
+root - INFO - Consolidated 1 tables into single table with shape (42, 5)
+root - ERROR - MISMATCH - different # of tables extracted, correct # of tables should be: 2
+root - INFO - Data processing for October 31, 2004 completed successfully.
+
+root - INFO - Post-processing completed successfully.
+root - INFO - All data has been processed and saved.
