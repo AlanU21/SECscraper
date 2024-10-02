@@ -17,7 +17,7 @@ logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(level
 
 
 def setup_writer():
-    return pd.ExcelWriter('cleaned_soi_tables.xlsx', engine='openpyxl')
+    return pd.ExcelWriter('HTGC_cleaned_thru_2014Q1.xlsx', engine='openpyxl')
 
 def download_file(url):
     headers = {'User-Agent': "alanuthuppan@email.com"}
@@ -415,7 +415,7 @@ def scrape_data():
     writer._save()
     writer.close()
 
-    post_process_excel('cleaned_soi_tables.xlsx')
+    post_process_excel('HTGC_cleaned_thru_2014Q1.xlsx')
 
     logging.info("All data has been processed and saved.")
 

@@ -1,5 +1,33 @@
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390024039266/ea0204324-01_10q.htm HTTP/1.1" 200 251819
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390024068478/ea0210294-01_10q.htm HTTP/1.1" 200 273412
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390024068478/ea0210294-01_10q.htm
+root - INFO - Current file: June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - Found date matching June 30, 2024 near combined text: SCHEDULE OF INVESTMENTS (Unaudited) — (continued) June 30, 2024
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - INCORRECT OR NO DATE FOUND near combined text: SCHEDULE OF INVESTMENTS — (continued) December 31, 2023
+root - INFO - REMOVING MISALIGNED TABLE with shape: (9, 14)
+root - INFO - REMOVING MISALIGNED TABLE with shape: (9, 14)
+root - INFO - # of tables extracted and initially cleaned: 5
+root - INFO - Consolidated data into a single table with shape (148, 6)
+
+root - INFO - First cell: 'Senior Secured Notes' - Match: True
+root - INFO - Last cell: 'Total Investments in Securities and Cash Equivalents' - Match: True
+root - INFO - PASSED - TABLE VERIFIED
+
+root - INFO - Data processing for June 30, 2024 completed successfully.
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390024039266/ea0204324-01_10q.htm HTTP/1.1" 200 251748
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390024039266/ea0204324-01_10q.htm
 root - INFO - Current file: March 31, 2024
 root - INFO - Found date matching March 31, 2024 near combined text: SCHEDULE OF INVESTMENTS (unaudited) March 31, 2024
@@ -34,7 +62,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2024 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390024023660/ea169968_10k.htm HTTP/1.1" 200 442074
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390024023660/ea169968_10k.htm HTTP/1.1" 200 442209
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390024023660/ea169968_10k.htm
 root - INFO - Current file: December 31, 2023
 root - INFO - Found date matching December 31, 2023 near combined text: SCHEDULE OF INVESTMENTS
@@ -62,7 +90,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023084801/ea164061_10q.htm HTTP/1.1" 200 274904
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023084801/ea164061_10q.htm HTTP/1.1" 200 274892
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390023084801/ea164061_10q.htm
 root - INFO - Current file: September 30, 2023
 root - INFO - Found date matching September 30, 2023 near combined text: SCHEDULE OF INVESTMENTS (unaudited) September 30, 2023
@@ -97,7 +125,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023065603/ea158646_10q.htm HTTP/1.1" 200 272104
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023065603/ea158646_10q.htm HTTP/1.1" 200 271447
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390023065603/ea158646_10q.htm
 root - INFO - Current file: June 30, 2023
 root - INFO - Found date matching June 30, 2023 near combined text: SCHEDULE OF INVESTMENTS (unaudited) June 30, 2023
@@ -125,7 +153,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023035636/ea153297_10q.htm HTTP/1.1" 200 249361
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023035636/ea153297_10q.htm HTTP/1.1" 200 249195
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390023035636/ea153297_10q.htm
 root - INFO - Current file: March 31, 2023
 root - INFO - Found date matching March 31, 2023 near combined text: SCHEDULE OF INVESTMENTS (unaudited) March 31, 2023
@@ -154,7 +182,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023022433/ea149525_10k.htm HTTP/1.1" 200 441488
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390023022433/ea149525_10k.htm HTTP/1.1" 200 441390
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390023022433/ea149525_10k.htm
 root - INFO - Current file: December 31, 2022
 root - INFO - Found date matching December 31, 2022 near combined text: SCHEDULE OF INVESTMENTS December 31, 2022
@@ -182,7 +210,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022069835/s144324_10q.htm HTTP/1.1" 200 274762
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022069835/s144324_10q.htm HTTP/1.1" 200 274100
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390022069835/s144324_10q.htm
 root - INFO - Current file: September 30, 2022
 root - INFO - Found date matching September 30, 2022 near combined text: SCHEDULE OF INVESTMENTS (unaudited) September 30, 2022
@@ -209,7 +237,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022042494/s139291_10q.htm HTTP/1.1" 200 218404
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022042494/s139291_10q.htm HTTP/1.1" 200 218056
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390022042494/s139291_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2022
@@ -238,7 +266,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022022290/s136627_10q.htm HTTP/1.1" 200 201495
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022022290/s136627_10q.htm HTTP/1.1" 200 201399
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390022022290/s136627_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2022
@@ -267,7 +295,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022010801/s135264_10k.htm HTTP/1.1" 200 371664
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390022010801/s135264_10k.htm HTTP/1.1" 200 371412
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390022010801/s135264_10k.htm
 root - INFO - Current file: December 31, 2021
 root - INFO - Found date matching December 31, 2021 near combined text: SCHEDULE OF INVESTMENTS December 31, 2021
@@ -295,7 +323,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021055098/s133966_10q.htm HTTP/1.1" 200 219849
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021055098/s133966_10q.htm HTTP/1.1" 200 220842
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390021055098/s133966_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2021
@@ -322,7 +350,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021039307/s132869_10q.htm HTTP/1.1" 200 213664
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021039307/s132869_10q.htm HTTP/1.1" 200 214045
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390021039307/s132869_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2021
@@ -356,7 +384,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021023520/s131661_10q.htm HTTP/1.1" 200 196416
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021023520/s131661_10q.htm HTTP/1.1" 200 196417
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390021023520/s131661_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2021
@@ -385,7 +413,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021016783/s130411_10k.htm HTTP/1.1" 200 373763
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390021016783/s130411_10k.htm HTTP/1.1" 200 374225
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390021016783/s130411_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2020
@@ -414,7 +442,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390020033727/s128181_10q.htm HTTP/1.1" 200 234027
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390020033727/s128181_10q.htm HTTP/1.1" 200 233555
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390020033727/s128181_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2020
@@ -449,7 +477,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390020018933/s126465_10q.htm HTTP/1.1" 200 226436
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390020018933/s126465_10q.htm HTTP/1.1" 200 227260
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390020018933/s126465_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2020
@@ -480,7 +508,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577420005085/s124071_10q.htm HTTP/1.1" 200 207839
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577420005085/s124071_10q.htm HTTP/1.1" 200 207945
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577420005085/s124071_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2020
@@ -511,7 +539,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577420002185/s123257_10k.htm HTTP/1.1" 200 350013
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577420002185/s123257_10k.htm HTTP/1.1" 200 350682
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577420002185/s123257_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2019
@@ -545,7 +573,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419013984/s121140_10q.htm HTTP/1.1" 200 159086
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419013984/s121140_10q.htm HTTP/1.1" 200 158938
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577419013984/s121140_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2019
@@ -613,7 +641,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390019014159/f10q0619_oxfordsquarecap.htm HTTP/1.1" 200 212125
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000121390019014159/f10q0619_oxfordsquarecap.htm HTTP/1.1" 200 210922
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000121390019014159/f10q0619_oxfordsquarecap.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2019
@@ -647,7 +675,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419006808/s117616_10q.htm HTTP/1.1" 200 92642
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419006808/s117616_10q.htm HTTP/1.1" 200 92503
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577419006808/s117616_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2019
@@ -675,7 +703,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419003361/s116199_10k.htm HTTP/1.1" 200 342163
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577419003361/s116199_10k.htm HTTP/1.1" 200 342088
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577419003361/s116199_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2018
@@ -741,7 +769,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418007363/s111586_10q.htm HTTP/1.1" 200 106866
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418007363/s111586_10q.htm HTTP/1.1" 200 107288
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577418007363/s111586_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2018
@@ -776,7 +804,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418003195/s109357_10q.htm HTTP/1.1" 200 97651
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418003195/s109357_10q.htm HTTP/1.1" 200 97369
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577418003195/s109357_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2018
@@ -804,7 +832,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418001761/s109284_10ka.htm HTTP/1.1" 200 188442
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418001761/s109284_10ka.htm HTTP/1.1" 200 191233
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577418001761/s109284_10ka.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2017
@@ -846,7 +874,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418001548/s108312_10k.htm HTTP/1.1" 200 358209
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577418001548/s108312_10k.htm HTTP/1.1" 200 358198
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577418001548/s108312_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2017
@@ -888,7 +916,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577417006165/s107887_10q.htm HTTP/1.1" 200 217793
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000161577417006165/s107887_10q.htm HTTP/1.1" 200 218120
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000161577417006165/s107887_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2017
@@ -916,7 +944,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417041194/v472148_10q.htm HTTP/1.1" 200 140710
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417041194/v472148_10q.htm HTTP/1.1" 200 140712
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420417041194/v472148_10q.htm#tCI
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2017
@@ -942,7 +970,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417025333/v465955_10q.htm HTTP/1.1" 200 139101
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417025333/v465955_10q.htm HTTP/1.1" 200 139074
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420417025333/v465955_10q.htm#t2CO
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2017
@@ -968,7 +996,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417012768/v460141_10k.htm HTTP/1.1" 200 282835
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420417012768/v460141_10k.htm HTTP/1.1" 200 283042
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420417012768/v460141_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2016
@@ -995,7 +1023,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416132092/v452096_10q.htm HTTP/1.1" 200 176578
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416132092/v452096_10q.htm HTTP/1.1" 200 177463
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420416132092/v452096_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2016
@@ -1023,7 +1051,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416116896/v445874_10q.htm HTTP/1.1" 200 174557
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416116896/v445874_10q.htm HTTP/1.1" 200 174662
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420416116896/v445874_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2016
@@ -1051,7 +1079,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416099308/v438694_10q.htm HTTP/1.1" 200 156823
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416099308/v438694_10q.htm HTTP/1.1" 200 156759
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420416099308/v438694_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2016
@@ -1079,7 +1107,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416087233/v433022_10k.htm HTTP/1.1" 200 277414
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420416087233/v433022_10k.htm HTTP/1.1" 200 277351
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420416087233/v433022_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2015
@@ -1107,7 +1135,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415063751/v423795_10q.htm HTTP/1.1" 200 170287
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415063751/v423795_10q.htm HTTP/1.1" 200 170373
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420415063751/v423795_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2015
@@ -1136,7 +1164,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415047035/v416887_10q.htm HTTP/1.1" 200 176148
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415047035/v416887_10q.htm HTTP/1.1" 200 176405
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420415047035/v416887_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2015
@@ -1165,7 +1193,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415028997/v409481_10q.htm HTTP/1.1" 200 152277
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415028997/v409481_10q.htm HTTP/1.1" 200 152319
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420415028997/v409481_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2015
@@ -1194,7 +1222,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415013776/v401553_10k.htm HTTP/1.1" 200 262547
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420415013776/v401553_10k.htm HTTP/1.1" 200 262917
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420415013776/v401553_10k.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2014
@@ -1221,7 +1249,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for December 31, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414065672/v393163_10q.htm HTTP/1.1" 200 141625
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414065672/v393163_10q.htm HTTP/1.1" 200 141630
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420414065672/v393163_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2014
@@ -1243,7 +1271,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for September 30, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414048026/v385893_10q.htm HTTP/1.1" 200 143636
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414048026/v385893_10q.htm HTTP/1.1" 200 143718
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420414048026/v385893_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2014
@@ -1267,7 +1295,7 @@ root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for June 30, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414029445/v377449_10q.htm HTTP/1.1" 200 121407
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1259429/000114420414029445/v377449_10q.htm HTTP/1.1" 200 121389
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1259429/000114420414029445/v377449_10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2014
@@ -1290,93 +1318,5 @@ root - INFO - Last cell: 'Total Investments' - Match: True
 root - INFO - PASSED - TABLE VERIFIED
 
 root - INFO - Data processing for March 31, 2014 completed successfully.
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
-root - ERROR - Error downloading nan: Invalid URL 'nan': No scheme supplied. Perhaps you meant https://nan?
-root - WARNING - No data was downloaded for URL nan
 root - INFO - Post-processing completed successfully.
 root - INFO - All data has been processed and saved.

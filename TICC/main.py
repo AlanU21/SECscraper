@@ -231,7 +231,7 @@ def is_date(string):
         return False
 
 def final_alignment(df, i):
-    if i <= 16:
+    if i <= 17:
         df.columns = ['Company/Investment', 'Acquisition Date', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
         for index, row in df.iterrows():
             if "Total" in str(row.iloc[0]):
@@ -250,7 +250,7 @@ def final_alignment(df, i):
 
         return df
     
-    elif i <= 28:
+    elif i <= 29:
         df.columns = ['Company/Investment', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
         for index, row in df.iterrows():
             if "Total" in str(row.iloc[0]):
@@ -265,7 +265,7 @@ def final_alignment(df, i):
 
         return df
     
-    elif i <= 39:
+    elif i <= 40:
         df.columns = ['Company/Investment', 'Industry', 'Principal Amount', 'Cost', 'Fair Value', '% of Net Assets']
         for index, row in df.iterrows():
             if "Total" in str(row.iloc[0]):

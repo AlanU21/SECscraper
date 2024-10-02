@@ -1,5 +1,57 @@
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078424000014/htgc-20240331.htm HTTP/1.1" 200 335531
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm HTTP/1.1" 200 348121
+root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000128078424000020/htgc-20240630.htm
+root - INFO - Current file: June 30, 2024
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - Found date matching June 30, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
+root - INFO - # of tables extracted: 14
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected EQUITY table
+root - INFO - Cleaning table
+root - INFO - Detected DEBT table
+root - INFO - Number of cleaned debt frames: 6
+root - INFO - Number of cleaned equity frames: 9
+root - INFO - Data processing for June 30, 2024 completed successfully.
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078424000014/htgc-20240331.htm HTTP/1.1" 200 335352
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000128078424000014/htgc-20240331.htm
 root - INFO - Current file: March 31, 2024
 root - INFO - Found date matching March 31, 2024 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
@@ -51,7 +103,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for March 31, 2024 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078424000007/htgc-20231231.htm HTTP/1.1" 200 496143
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078424000007/htgc-20231231.htm HTTP/1.1" 200 496476
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000128078424000007/htgc-20231231.htm
 root - INFO - Current file: December 31, 2023
 root - INFO - Found date matching December 31, 2023 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
@@ -100,7 +152,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 8
 root - INFO - Data processing for December 31, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078423000008/htgc-20230930.htm HTTP/1.1" 200 372596
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000128078423000008/htgc-20230930.htm HTTP/1.1" 200 373135
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000128078423000008/htgc-20230930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2023
@@ -153,7 +205,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for September 30, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023038010/htgc-20230630.htm HTTP/1.1" 200 896460
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023038010/htgc-20230630.htm HTTP/1.1" 200 897506
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017023038010/htgc-20230630.htm
 root - INFO - Current file: June 30, 2023
 root - INFO - Found date matching June 30, 2023 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
@@ -196,7 +248,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for June 30, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023017892/htgc-20230331.htm HTTP/1.1" 200 855386
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023017892/htgc-20230331.htm HTTP/1.1" 200 855296
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017023017892/htgc-20230331.htm
 root - INFO - Current file: March 31, 2023
 root - INFO - Found date matching March 31, 2023 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
@@ -239,7 +291,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for March 31, 2023 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023003044/htgc-20221231.htm HTTP/1.1" 200 1055786
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017023003044/htgc-20221231.htm HTTP/1.1" 200 1055785
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017023003044/htgc-20221231.htm
 root - INFO - Current file: December 31, 2022
 root - INFO - Found date matching December 31, 2022 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
@@ -282,7 +334,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for December 31, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022021225/htgc-20220930.htm HTTP/1.1" 200 885154
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022021225/htgc-20220930.htm HTTP/1.1" 200 884937
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017022021225/htgc-20220930.htm
 root - INFO - Current file: September 30, 2022
 root - INFO - Found date matching September 30, 2022 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
@@ -325,7 +377,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for September 30, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022013380/htgc_q2_6.30.2022_10-q.htm HTTP/1.1" 200 334107
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022013380/htgc_q2_6.30.2022_10-q.htm HTTP/1.1" 200 334812
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017022013380/htgc_q2_6.30.2022_10-q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2022
@@ -369,7 +421,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for June 30, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022007867/htgc_q1_3.31.2022_10-q.htm HTTP/1.1" 200 299172
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022007867/htgc_q1_3.31.2022_10-q.htm HTTP/1.1" 200 298586
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017022007867/htgc_q1_3.31.2022_10-q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2022
@@ -413,7 +465,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for March 31, 2022 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022001628/htgc_10k_2021.htm HTTP/1.1" 200 460070
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017022001628/htgc_10k_2021.htm HTTP/1.1" 200 460138
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017022001628/htgc_10k_2021.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2021
@@ -457,7 +509,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for December 31, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017021002472/htgc_q3_9.30.2021_10-q.htm HTTP/1.1" 200 308135
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017021002472/htgc_q3_9.30.2021_10-q.htm HTTP/1.1" 200 308391
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017021002472/htgc_q3_9.30.2021_10-q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2021
@@ -501,7 +553,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for September 30, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017021000613/htgc_q2_06302021_non-xbr.htm HTTP/1.1" 200 279534
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095017021000613/htgc_q2_06302021_non-xbr.htm HTTP/1.1" 200 279817
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095017021000613/htgc_q2_06302021_non-xbr.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2021
@@ -542,7 +594,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for June 30, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459021022005/htgc-10q_20210331.htm HTTP/1.1" 200 296637
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459021022005/htgc-10q_20210331.htm HTTP/1.1" 200 295990
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459021022005/htgc-10q_20210331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2021
@@ -586,7 +638,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for March 31, 2021 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459021007594/htgc-10k_20201231.htm HTTP/1.1" 200 487124
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459021007594/htgc-10k_20201231.htm HTTP/1.1" 200 486666
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459021007594/htgc-10k_20201231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2020
@@ -630,7 +682,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for December 31, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020048895/htgc-10q_20200930.htm HTTP/1.1" 200 323777
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020048895/htgc-10q_20200930.htm HTTP/1.1" 200 323765
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459020048895/htgc-10q_20200930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2020
@@ -674,7 +726,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for September 30, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020034780/htgc-10q_20200630.htm HTTP/1.1" 200 324817
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020034780/htgc-10q_20200630.htm HTTP/1.1" 200 324766
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459020034780/htgc-10q_20200630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2020
@@ -718,7 +770,7 @@ root - INFO - Number of cleaned debt frames: 1
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for June 30, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020020850/htgc-10q_20200331.htm HTTP/1.1" 200 303546
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020020850/htgc-10q_20200331.htm HTTP/1.1" 200 303150
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459020020850/htgc-10q_20200331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2020
@@ -762,7 +814,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for March 31, 2020 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020005567/htgc-10k_20191231.htm HTTP/1.1" 200 477135
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459020005567/htgc-10k_20191231.htm HTTP/1.1" 200 477243
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459020005567/htgc-10k_20191231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2019
@@ -802,7 +854,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 5
 root - INFO - Data processing for December 31, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019038799/htgc-10q_20190930.htm HTTP/1.1" 200 346526
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019038799/htgc-10q_20190930.htm HTTP/1.1" 200 347866
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459019038799/htgc-10q_20190930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2019
@@ -843,7 +895,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for September 30, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019027970/htgc-10q_20190630.htm HTTP/1.1" 200 358351
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019027970/htgc-10q_20190630.htm HTTP/1.1" 200 359216
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459019027970/htgc-10q_20190630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2019
@@ -887,7 +939,7 @@ root - INFO - Number of cleaned debt frames: 5
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for June 30, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019015351/htgc-10q_20190331.htm HTTP/1.1" 200 342640
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019015351/htgc-10q_20190331.htm HTTP/1.1" 200 342035
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459019015351/htgc-10q_20190331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2019
@@ -943,7 +995,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for March 31, 2019 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019003680/htgc-10k_20181231.htm HTTP/1.1" 200 529164
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459019003680/htgc-10k_20181231.htm HTTP/1.1" 200 529033
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459019003680/htgc-10k_20181231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2018
@@ -999,7 +1051,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for December 31, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018026240/htgc-10q_20180930.htm HTTP/1.1" 200 372982
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018026240/htgc-10q_20180930.htm HTTP/1.1" 200 374147
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459018026240/htgc-10q_20180930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2018
@@ -1055,7 +1107,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for September 30, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018018913/htgc-10q_20180630.htm HTTP/1.1" 200 362680
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018018913/htgc-10q_20180630.htm HTTP/1.1" 200 363102
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459018018913/htgc-10q_20180630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2018
@@ -1111,7 +1163,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for June 30, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018010689/htgc-10q_20180331.htm HTTP/1.1" 200 340864
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018010689/htgc-10q_20180331.htm HTTP/1.1" 200 340070
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459018010689/htgc-10q_20180331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2018
@@ -1167,7 +1219,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for March 31, 2018 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018002885/htgc-10k_20171231.htm HTTP/1.1" 200 582346
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459018002885/htgc-10k_20171231.htm HTTP/1.1" 200 582141
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459018002885/htgc-10k_20171231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2017
@@ -1223,7 +1275,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for December 31, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017021219/htgc-10q_20170930.htm HTTP/1.1" 200 469433
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017021219/htgc-10q_20170930.htm HTTP/1.1" 200 469050
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459017021219/htgc-10q_20170930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2017
@@ -1270,7 +1322,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for September 30, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017015343/htgc-10q_20170630.htm HTTP/1.1" 200 456382
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017015343/htgc-10q_20170630.htm HTTP/1.1" 200 456336
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459017015343/htgc-10q_20170630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2017
@@ -1320,7 +1372,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 8
 root - INFO - Data processing for June 30, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017008770/htgc-10q_20170331.htm HTTP/1.1" 200 367813
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017008770/htgc-10q_20170331.htm HTTP/1.1" 200 367501
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459017008770/htgc-10q_20170331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2017
@@ -1370,7 +1422,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 8
 root - INFO - Data processing for March 31, 2017 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017002220/htgc-10k_20161231.htm HTTP/1.1" 200 546268
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459017002220/htgc-10k_20161231.htm HTTP/1.1" 200 545797
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459017002220/htgc-10k_20161231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2016
@@ -1426,7 +1478,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 9
 root - INFO - Data processing for December 31, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016027378/htgc-10q_20160930.htm HTTP/1.1" 200 383467
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016027378/htgc-10q_20160930.htm HTTP/1.1" 200 383564
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459016027378/htgc-10q_20160930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2016
@@ -1477,7 +1529,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for September 30, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016022703/htgc-10q_20160630.htm HTTP/1.1" 200 382354
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016022703/htgc-10q_20160630.htm HTTP/1.1" 200 382277
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459016022703/htgc-10q_20160630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2016
@@ -1528,7 +1580,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for June 30, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016017987/htgc-10q_20160331.htm HTTP/1.1" 200 355652
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016017987/htgc-10q_20160331.htm HTTP/1.1" 200 355607
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459016017987/htgc-10q_20160331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2016
@@ -1576,7 +1628,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for March 31, 2016 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016013376/htgc-10k_20151231.htm HTTP/1.1" 200 521874
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459016013376/htgc-10k_20151231.htm HTTP/1.1" 200 521948
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459016013376/htgc-10k_20151231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2015
@@ -1630,7 +1682,7 @@ root - INFO - Number of cleaned debt frames: 8
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for December 31, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015009663/htgc-10q_20150930.htm HTTP/1.1" 200 390526
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015009663/htgc-10q_20150930.htm HTTP/1.1" 200 390555
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459015009663/htgc-10q_20150930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2015
@@ -1681,7 +1733,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for September 30, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015006466/htgc-10q_20150630.htm HTTP/1.1" 200 387500
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015006466/htgc-10q_20150630.htm HTTP/1.1" 200 387644
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459015006466/htgc-10q_20150630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2015
@@ -1732,7 +1784,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for June 30, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015003583/htgc-10q_20150331.htm HTTP/1.1" 200 335441
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015003583/htgc-10q_20150331.htm HTTP/1.1" 200 335286
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459015003583/htgc-10q_20150331.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2015
@@ -1783,7 +1835,7 @@ root - INFO - Number of cleaned debt frames: 7
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for March 31, 2015 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015001201/htgc-10k_20141231.htm HTTP/1.1" 200 458131
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459015001201/htgc-10k_20141231.htm HTTP/1.1" 200 458433
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459015001201/htgc-10k_20141231.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: December 31, 2014
@@ -1834,7 +1886,7 @@ root - INFO - Number of cleaned debt frames: 8
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for December 31, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459014005194/htgc-10q_20140930.htm HTTP/1.1" 200 327013
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459014005194/htgc-10q_20140930.htm HTTP/1.1" 200 327058
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459014005194/htgc-10q_20140930.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: September 30, 2014
@@ -1879,7 +1931,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for September 30, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459014003326/htgc-10q_20140630.htm HTTP/1.1" 200 310653
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000156459014003326/htgc-10q_20140630.htm HTTP/1.1" 200 311190
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000156459014003326/htgc-10q_20140630.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: June 30, 2014
@@ -1927,7 +1979,7 @@ root - INFO - Number of cleaned debt frames: 6
 root - INFO - Number of cleaned equity frames: 7
 root - INFO - Data processing for June 30, 2014 completed successfully.
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312514177276/d714950d10q.htm HTTP/1.1" 200 174966
+urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312514177276/d714950d10q.htm HTTP/1.1" 200 175010
 root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312514177276/d714950d10q.htm
 charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
 root - INFO - Current file: March 31, 2014
@@ -1977,1553 +2029,5 @@ root - INFO - Detected EQUITY table
 root - INFO - Number of cleaned debt frames: 8
 root - INFO - Number of cleaned equity frames: 6
 root - INFO - Data processing for March 31, 2014 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312514072989/d674917d10k.htm HTTP/1.1" 200 279640
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312514072989/d674917d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2013
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 15
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 7
-root - INFO - Number of cleaned equity frames: 8
-root - INFO - Data processing for December 31, 2013 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312513432963/d618108d10q.htm HTTP/1.1" 200 180742
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312513432963/d618108d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2013
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 16
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 9
-root - INFO - Number of cleaned equity frames: 7
-root - INFO - Data processing for September 30, 2013 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312513315122/d571286d10q.htm HTTP/1.1" 200 180920
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312513315122/d571286d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2013
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 18
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 11
-root - INFO - Number of cleaned equity frames: 7
-root - INFO - Data processing for June 30, 2013 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312513196121/d525770d10q.htm HTTP/1.1" 200 169149
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312513196121/d525770d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2013
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2013 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 17
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 10
-root - INFO - Number of cleaned equity frames: 7
-root - INFO - Data processing for March 31, 2013 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312513084470/d483390d10k.htm HTTP/1.1" 200 279598
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312513084470/d483390d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2012
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 18
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 0
-root - INFO - Number of cleaned equity frames: 18
-root - INFO - Data processing for December 31, 2012 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312512446655/d423145d10q.htm HTTP/1.1" 200 167085
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312512446655/d423145d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2012
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 15
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 0
-root - INFO - Number of cleaned equity frames: 15
-root - INFO - Data processing for September 30, 2012 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312512331998/d383491d10q.htm HTTP/1.1" 200 165587
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312512331998/d383491d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2012
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 16
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Cleaning table
-root - INFO - Detected EQUITY table
-root - INFO - Number of cleaned debt frames: 0
-root - INFO - Number of cleaned equity frames: 16
-root - INFO - Data processing for June 30, 2012 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312512218681/d344512d10q.htm HTTP/1.1" 200 147889
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312512218681/d344512d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2012
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2012 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 16
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 16
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2012 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312512106898/d310436d10k.htm HTTP/1.1" 200 247785
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312512106898/d310436d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2011
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 21
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 21
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2011 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312511295632/d246717d10q.htm HTTP/1.1" 200 142326
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312511295632/d246717d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2011
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 15
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 15
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2011 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312511212397/d10q.htm HTTP/1.1" 200 129493
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312511212397/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2011
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 11
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 11
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2011 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312511134248/d10q.htm HTTP/1.1" 200 130964
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312511134248/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2011
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2011 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 15
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 15
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2011 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312511081409/d10k.htm HTTP/1.1" 200 217565
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312511081409/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2010
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 14
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected UKNOWN table
-root - INFO - Number of cleaned debt frames: 13
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2010 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312510248305/d10q.htm HTTP/1.1" 200 120293
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312510248305/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2010
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 13
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 13
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2010 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312510181856/d10q.htm HTTP/1.1" 200 111347
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312510181856/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2010
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 11
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 11
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2010 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312510113080/d10q.htm HTTP/1.1" 200 108234
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312510113080/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2010
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching March 31, 2010 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 13
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 13
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2010 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312510055525/d10k.htm HTTP/1.1" 200 203661
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312510055525/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2009
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 12
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 12
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2009 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312509229553/d10q.htm HTTP/1.1" 200 112719
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312509229553/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2009
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching September 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 11
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 11
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2009 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312509169182/d10q.htm HTTP/1.1" 200 109139
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312509169182/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2009
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching June 30, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 10
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 10
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2009 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312509107269/d10q.htm HTTP/1.1" 200 103019
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312509107269/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2009
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2009 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 17
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 17
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2009 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312509055279/d10k.htm HTTP/1.1" 200 189220
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312509055279/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2008
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 14
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 14
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2008 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312508231630/d10q.htm HTTP/1.1" 200 98513
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312508231630/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2008
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 14
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 14
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2008 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312508173477/d10q.htm HTTP/1.1" 200 95013
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312508173477/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2008
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 14
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected UKNOWN table
-root - INFO - Number of cleaned debt frames: 13
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2008 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312508111125/d10q.htm HTTP/1.1" 200 85509
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312508111125/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2008
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2008 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 12
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 12
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2008 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312508054268/d10k.htm HTTP/1.1" 200 150304
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312508054268/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2007
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 14
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 14
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2007 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312507239958/d10q.htm HTTP/1.1" 200 81372
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312507239958/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2007
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching September 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 9
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 9
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2007 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312507176055/d10q.htm HTTP/1.1" 200 77890
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312507176055/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2007
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 9
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 9
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2007 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312507106254/d10q.htm HTTP/1.1" 200 70515
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312507106254/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2007
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2007 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 8
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 8
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2007 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312507051057/d10k.htm HTTP/1.1" 200 133427
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312507051057/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2006
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 8
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 8
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2006 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095013406021601/f25059e10vq.htm HTTP/1.1" 200 64603
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095013406021601/f25059e10vq.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2006
-root - INFO - Found date matching September 30, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
-root - INFO - # of tables extracted: 1
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 1
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2006 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000095013406015887/f22199e10vq.htm HTTP/1.1" 200 54872
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000095013406015887/f22199e10vq.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2006
-root - INFO - Found date matching June 30, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
-root - INFO - Found date matching June 30, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS
-root - INFO - # of tables extracted: 2
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 2
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2006 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312506110876/d10q.htm HTTP/1.1" 200 55561
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312506110876/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: March 31, 2006
-root - INFO - Found date matching March 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching March 31, 2006 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - # of tables extracted: 5
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 5
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for March 31, 2006 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312506047261/d10k.htm HTTP/1.1" 200 142767
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312506047261/d10k.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: December 31, 2005
-root - INFO - Found date matching December 31, 2005 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS 
-root - INFO - Found date matching December 31, 2005 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2005 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - Found date matching December 31, 2005 near tag: CONSOLIDATED SCHEDULE OF INVESTMENTS—(Continued) 
-root - INFO - # of tables extracted: 4
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 4
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for December 31, 2005 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000089161805000840/f13770e10vq.htm HTTP/1.1" 200 58072
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000089161805000840/f13770e10vq.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: September 30, 2005
-root - INFO - # of tables extracted: 0
-root - INFO - Number of cleaned debt frames: 0
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for September 30, 2005 completed successfully.
-urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.sec.gov:443
-urllib3.connectionpool - DEBUG - https://www.sec.gov:443 "GET /Archives/edgar/data/1280784/000119312505163636/d10q.htm HTTP/1.1" 200 55577
-root - INFO - Processing file: https://www.sec.gov/Archives/edgar/data/1280784/000119312505163636/d10q.htm
-charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
-root - INFO - Current file: June 30, 2005
-root - INFO - Found date matching June 30, 2005 near tag: CONSOLIDATED SCHEDULES OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2005 near tag: CONSOLIDATED SCHEDULES OF INVESTMENTS 
-root - INFO - Found date matching June 30, 2005 near tag: CONSOLIDATED SCHEDULES OF INVESTMENTS 
-root - INFO - # of tables extracted: 3
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Cleaning table
-root - INFO - Detected DEBT table
-root - INFO - Number of cleaned debt frames: 3
-root - INFO - Number of cleaned equity frames: 0
-root - INFO - Data processing for June 30, 2005 completed successfully.
 root - INFO - Post-processing completed successfully.
 root - INFO - All data has been processed and saved.
